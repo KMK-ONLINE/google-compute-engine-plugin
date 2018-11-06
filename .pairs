@@ -1,0 +1,240 @@
+pairs:
+  ts: Tommy Sullivan
+  mk: Mohan Krishnan
+
+  # dev-ops
+  aw: Addhe Warman
+  sg: Sugandi
+  rs: Robertus Suseno
+  ns: Nasrullah
+  sd: Sasmoko Danuhosodo
+  kmp: Kyan Mada Pramana
+  hm: Hofid Mashudi
+  ra: Ridho Adya Pangestu
+  cec: Cecep Mahbub
+  paw: Peter Andi Wiguna
+  bmf: Bradley Forney
+  bv: Barket Virani
+  jt: Justin To
+  js: Junaid Shah
+  lh: Luxing Huang
+  ak: Allan Kozlof
+  alv: Alvin Aditya
+  tgr: Togar Lamhot
+  rl : Riki lesmana
+  rw: Riandi Wiguna
+  bw: Budiwijaya
+  pep: Pandu Poluan
+  ai: Adiyaka Niastya Ihsan Maulana; ihsan
+  aaw: Aris Agung Wibono
+  rhc: Rifki Hadzami
+  df: Daniel Fablius
+  ozi: Muhammad Khoirurraziqin
+  mhs: Muhammad Hallaj bin Subery
+  hbs: Hadrian Bayanulhaq Siregar
+  pb: Pubudu Perera
+  trs: Tessar Saputra
+  ep: Eko Prasetiyo
+  rid: Raditya Iswara
+  yy: Yixin Yang
+  mjc: Marc Jansen Chua
+  mhw: Muhammad Handry Wahyudi
+  th: Thierry Humphrey
+  htb: Hata Bayu Setiawan
+  apm: Ardityo Mulawarman
+  iqh: Muhammad Iqbal
+  hk: Hilman Kurniawan
+  yas: Yasin Abdullah
+  dy: Diyan Yordanov
+  vn: Vishal Nigam
+  aaw: Aris Agung Wibono
+
+  # publishing
+  nr: Nofriandi Ramenta
+  at: Ahmad Tanwir; ata
+  ey: Enang Yusup
+  fm: Fadhil Mandaga
+  mi: Michael Himawan; himawan
+  al: Andy Librian
+  mg: Muhammad Gantino; tino
+  hb: Harry Budianto
+  njr: Nathan Runtuwene
+  mkw: Marhadiasha Kusumawardhana
+  ch: Christian Hadirahardja
+  bpj: Byan Prihandana Jati
+  ard: Arif Ramadhan; ardhan
+  es: Ericko Samudera
+  joe: Joe Erik Carla Wijaya
+  yos: Yosfik Alqadri; yosfik
+
+  # qa
+  pi: Panji Indrajit
+  dj: Dewi Jayanti
+  ira: Nurazizah
+  sopy: Sopyana Pangestika
+
+  # vidio
+  wa: Wisnu Alamsyah; wisnu
+  iwn: Kurniawan
+  kak: Kunto Aji Kristianto
+  tp: Tito Pandu Brahmanto
+  ht: Hendyanto
+  smw: Sukoreno Mukti Widodo; reno
+  af: Asroni Hidayat Fahmi
+  mao: Muhammad Arifino Setyawan
+
+  # mobile
+  as: Djonny Steven Abenz Sim; asen
+  hfz: Hafiz
+  jm: Jimmy Suhartono
+  rds: Rindang Septyan
+  dd: Dino Dwiyaksa
+  rc: Rakhmat Cahyadi
+  sw: Sugeng Wibowo
+  si: Suprianto PusoroTrisno
+  tk: Tristanto Kurniawan
+  ku: Kurniadi
+
+  # analytics
+  sa: Yap Sok Ann
+  hbl: Hafiz Badrie Lubis ; hafizbadrie
+  pg: Parlinggoman Hasibuan ; goman
+  ws: William Shallum
+  sha: Septian Hari Nugroho
+  fj: Fajri Koto
+  git: Gita Venesia Setiadi
+  yec: Yahya Eru Cakra
+  luq: Luqman Mushawwir
+  x: Andri Ihsannudin
+  eap: Ence Prastama
+  gem: Gemala
+  ec: Ersa Christian
+  rt: Rencana Tarigan
+  frz: Frizky
+  tir: Teguh Iman Riadi
+  hr: Hariyanto
+  mt: Muhammad Taufik Ismail
+  bn: Bagus Nugroho Budi Nurtomo
+  kim: Lukmanul Hakim
+  ae: Amin Endah Sulistiawati
+  fa: Frilla Amanda
+  afg: Ali Firdaus Ghifari
+  ael: Adrian Edbert Luman
+  gc: Jacob Gao
+  pr: Preeti Ramachandran
+
+  # support
+  mm: Muhammad Muis Muhidin; muis
+  ase: Andri Setiawan; andri
+
+  # VG
+  gg: Gunawan
+  egi: Agastiya S. Mohammad
+
+  # BBmtek
+  jg: Julian Gomez; julian
+
+  # BUS
+  ir: Illia Rahavoi
+  ss: Shravan Sabavat
+  am: Ajay Manek
+  pa: Philippe Alves
+
+  # DAI
+  sl: Shemek Lesniowski
+  tb: Tomasz Buczek
+
+  # Pythian
+  pls: Pierig Le Saux
+  tl: Taylor Ludwig
+  cd: Chris Downs
+
+  # Globallogic
+  ssi: Shishal Singh
+  nw: Nidhi Wason
+
+  # SG Backend
+  dq: Dang Quang Nguyen; dnguyen
+  mp: Mitesh Pathak; mpathak
+
+  # CloudCover
+  utk: Utkarsh Sharma
+  sb: Sweeti Bharti
+  sm: Shital More
+
+  # Timeline
+  msn: Miftah Fathudin; miftah
+  mr: Moh. Ropiyudin; ropi
+  sp: Sarah Polak
+  mmm: Muhammad Mufti Muflihun; mmuflihun
+  ci: Charles Isnanto
+  hfn: Helmi Fitria Nugroho
+
+  # BBM Desktop
+  ap: Agung Prasetyo
+  das: Dimas Angga Saputra
+  hu: Hendra Uzia
+  jn: Jonathan Siahaan
+  jmt: Marcel Tumboimbela
+  pk: Pinto Luhur Karsanda
+  wd: Widi Rizki Ayudya
+  bo: Bobby
+
+  # SIP
+  hd: Hai-Dang Pham
+  tn: Tina Kramarenko
+  sc: Sriram Chandrasekhar
+
+  #Group Generasi Baru
+  eps: Erlangga Pradipta Suryanto
+  mnr: Moch Nasrullah Rahmani; Nasrull
+  wr: Widya Rarasati
+  asp: Arya Sasmintaning Pamboedy
+
+  #Notification Service
+  yap: Andre Prasetya
+
+  # channels
+  vb: Viera Bibr
+
+  # Contacts
+  dh: Dmytro Hyshtymult
+
+  te: Tamas Eichkern
+
+  # News and Sport
+  kak: Kunto Aji Kristianto
+  mh: Meirza Heyder; meir
+  an: Andy Sentosa; sentosa
+  mf: Ageng Mufti Syafii Hakim; mufti
+  fr: Muhammad Fauzan Razandi
+  iz: Mohamad Fahrizal Septrianto; izal
+  ll: Linh Ly
+  tsp: Pham Thai Son
+
+  # Partner
+  cp: Christy Pang
+
+  # BBID
+  nk: Nikko Khresna
+  ri: Rendra Rahmatullah Ischak
+
+  # Test Engineers
+  rz: Rezi Rusnadiputra; rezi
+  mfw: Muhammad Ferdy Wardianto; ferdy
+
+  # VIDIO
+  saf: Septian Ahmad Fujianto
+
+  # Family war
+  jvn: Jovin Angelico
+
+email:
+  prefix: pair
+  domain: kmkonline.co.id
+  no_solo_prefix: false
+
+email_addresses:
+  mnr: nrahmani@bbmtek.com
+  sc: schandrasekhar@bbmtek.com
+  hk: hkurniawan@bbmtek.com

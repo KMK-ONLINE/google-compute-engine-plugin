@@ -75,7 +75,7 @@
                 <f:select/>
             </f:entry>
             <f:entry field="bootDiskSourceImageName" title="${%Image name}">
-                <f:select/>
+                <f:textbox/>
             </f:entry>
             <f:entry field="bootDiskType" title="${%Disk Type}">
                 <f:select/>

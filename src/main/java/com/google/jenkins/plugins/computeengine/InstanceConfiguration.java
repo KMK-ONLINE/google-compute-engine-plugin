@@ -635,31 +635,35 @@ public class InstanceConfiguration implements Describable<InstanceConfiguration>
             return FormValidation.ok();
         }
 
-        public ListBoxModel doFillBootDiskSourceImageNameItems(@AncestorInPath Jenkins context,
-                                                               @QueryParameter("bootDiskSourceImageProject") final String projectId,
-                                                               @QueryParameter("credentialsId") @RelativePath("..") final String credentialsId) {
-            ListBoxModel items = new ListBoxModel();
-            items.add("");
+        public FormValidation doCheckBootDiskSourceImageName(@AncestorInPath Jenkins context,
+                                                             @QueryParameter String value,
+                                                             @QueryParameter("bootDiskSourceImageProject") final String projectId,
+                                                             @QueryParameter("credentialsId") @RelativePath("..") final String credentialsId) {
+            String imageName;
+
+            if (Strings.isNullOrEmpty(credentialsId) || Strings.isNullOrEmpty(projectId))
+                return FormValidation.error("Please make sure image project or credential already filled");
+
+            if (value.equals(""))
+                return FormValidation.warning("Please select source image...");
+
+            try {
+                if (value.contains("https://www.googleapis.com")) {
+                    imageName = value.split("/")[9];
+                } else {
+                    return FormValidation.error("Please fill like this value: https://www.googleapis.com/compute/v1/projects/bbm-build/global/images/jenkins-image-20180626");
+                }
+            } catch (ArrayIndexOutOfBoundsException ex){
+                return FormValidation.error(ex, "Please fill like this value: https://www.googleapis.com/compute/v1/projects/bbm-build/global/images/jenkins-image-20180626");
+            }
+
             try {
                 ComputeClient compute = computeClient(context, credentialsId);
-                List<Image> images = compute.getImages(projectId);
-
-                for (Image i : images) {
-                    items.add(i.getName(), i.getSelfLink());
-                }
+                Image i = compute.getImage(projectId, imageName);
             } catch (IOException ioe) {
-                items.clear();
-                items.add("Error retrieving images for project");
+                return FormValidation.error("Could not find image " + imageName);
             } catch (IllegalArgumentException iae) {
-                //TODO: log
-                return null;
-            }
-            return items;
-        }
-
-        public FormValidation doCheckBootDiskSourceImageName(@QueryParameter String value) {
-            if (value.equals("")) {
-                return FormValidation.warning("Please select source image...");
+                return FormValidation.error(iae, "Please fill like this value: https://www.googleapis.com/compute/v1/projects/bbm-build/global/images/jenkins-image-20180626");
             }
             return FormValidation.ok();
         }
@@ -683,6 +687,8 @@ public class InstanceConfiguration implements Describable<InstanceConfiguration>
                 }
             } catch (IOException ioe) {
                 return FormValidation.error(ioe, "Error validating boot disk size");
+            } catch (IllegalArgumentException iae) {
+                return FormValidation.error(iae, "Please fill Image name correctly");
             }
             return FormValidation.ok();
         }
