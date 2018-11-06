@@ -127,7 +127,6 @@ public class InstanceConfigurationTest {
         Mockito.when(computeClient.cpuPlatforms(anyString(), anyString())).thenReturn(cpuPlatforms);
         Mockito.when(computeClient.getBootDiskTypes(anyString(), anyString())).thenReturn(diskTypes);
         Mockito.when(computeClient.getImage(anyString(), anyString())).thenReturn(image);
-        Mockito.when(computeClient.getImages(anyString())).thenReturn(imageTypes);
         Mockito.when(computeClient.getAcceleratorTypes(anyString(), anyString())).thenReturn(acceleratorTypes);
         Mockito.when(computeClient.getNetworks(anyString())).thenReturn(networks);
         Mockito.when(computeClient.getSubnetworks(anyString(), anyString(), anyString())).thenReturn(subnetworks);
